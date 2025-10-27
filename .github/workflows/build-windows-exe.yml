@@ -34,4 +34,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: desktop-pet-exe
-          path: dist/DesktopPet/DesktopPet.exe
+          path: dist/DesktopPet/

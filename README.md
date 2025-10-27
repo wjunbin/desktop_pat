@@ -45,7 +45,7 @@ python -m desktop_pet
 
 1. 打开仓库的 **Actions** 页面，选择最新一次 **Build Windows executable** 工作流。
 2. 在运行详情底部的 **Artifacts** 区域下载 `desktop-pet-exe` 压缩包。
-3. 解压后即可获得 `DesktopPet.exe`，双击运行体验桌面宠物。
+3. 解压后会得到整个 `DesktopPet/` 目录，其中包含 `DesktopPet.exe` 与 `_internal/` 依赖文件夹。保持二者位于同一目录后再启动 `DesktopPet.exe`，即可正常运行桌面宠物。
 
 ## 自定义与扩展建议
 
