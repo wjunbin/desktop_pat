@@ -97,12 +97,12 @@ class PetSprite(QtWidgets.QLabel):
         painter.setRenderHint(QtGui.QPainter.RenderHint.Antialiasing)
 
         body_rect = QtCore.QRect(8, 16, size.width() - 16, size.height() - 24)
-        ear_left = QtCore.QPolygonF([
+        ear_left = QtGui.QPolygonF([
             QtCore.QPointF(size.width() * 0.25, 8),
             QtCore.QPointF(size.width() * 0.35, 32),
             QtCore.QPointF(size.width() * 0.15, 32),
         ])
-        ear_right = QtCore.QPolygonF([
+        ear_right = QtGui.QPolygonF([
             QtCore.QPointF(size.width() * 0.75, 8),
             QtCore.QPointF(size.width() * 0.65, 32),
             QtCore.QPointF(size.width() * 0.85, 32),
